@@ -1,0 +1,106 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+div#confirmScreen, div.attribution{
+  display: none;
+}
+
+/*Background*/
+body {
+  font-size: 18px;
+  width: 90%;
+  background: url(./images/bg-main-desktop.png) left top / 33% repeat-y, 
+              white ;
+}
+
+/*Card Styles*/
+div.cardContainer, div#cardBack {
+  position: relative;
+  margin-left: 17em;
+}
+
+div.cardContainer {
+  margin-top: 10em;
+  margin-bottom: 2em;
+}
+
+div#cardBack {
+  left: 5em;
+}
+
+p.cardNumber {
+  position: absolute;
+  color: white;
+  bottom: 1.7em;
+  left: 1em;
+
+  font-size: 1.5em;
+  font-family: 'Space Grotesk', sans-serif;
+  letter-spacing: 0.1em;
+}
+
+p.cardName {
+  font-size: 1em;
+  font-family: 'Space Grotesk', sans-serif;
+  color: white;
+  font-variant: small-caps;
+  letter-spacing: 0.1em;
+
+  position: absolute;
+  bottom: 0.8em;
+  left: 1.5em;
+}
+
+p.cardExp {
+  font-size: 0.8em;
+  font-family: 'Space Grotesk', sans-serif;
+  color: white;
+  font-variant: small-caps;
+  letter-spacing: 0.05em;
+
+  position: absolute;
+  bottom: 1.2em;
+  left: 26em;
+}
+
+img.logo {
+  display: block;
+  position: absolute;
+  top: 1.2em;
+  left: 1.5em;
+}
+
+p.cvc {
+  font-size: 0.8em;
+  font-family: 'Space Grotesk', sans-serif;
+  color: white;
+  letter-spacing: 0.05em;
+
+  position: absolute;
+  bottom: 7.3em;
+  left: 25.5em;
+}
+
+/*Form Styles*/
+div.flexColumn {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+div.flexRow {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+
+
+input {
+  width: 10%;
+}
+
+input#cardholer, input#cNumber {
+  width: 30%;
+}
+@media only screen and (min-width: 375px) {
+  
+}
